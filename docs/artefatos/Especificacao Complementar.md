@@ -1,22 +1,22 @@
-# <Nome da Empresa>
+# Sabina Decorações
 
-## <Nome do Projeto>
+## Plataforma on-line Sabina Decorações
 
-**Versão:** `<1.0>`
+**Versão:** `1.0`
 
 # Especificação Complementar
 
-**Data:** `<dd/mmm/aa>`
+**Data:** `21/Mar/25`
 
-<identificador do documento>
+Sabina-Invest-SPEC-2025
 
 ---
 
 ## Histórico da Revisão
 
-| Data | Versão | Descrição | Autor |
-|------|--------|-----------|--------|
-| `<dd/mmm/aa>` | `<x.x>` | `<detalhes>` | `<nome>` |
+| Data       | Versão | Descrição         | Autor |
+|------------|--------|-------------------|--------|
+| 21/Mar/25  | 1.0    | Documento Inicial | Lucas  |
 
 ---
 
@@ -29,17 +29,17 @@
    1.4 [Referências](#referências)  
    1.5 [Visão Geral](#visão-geral)  
 2. [Funcionalidade](#funcionalidade)  
-   2.1 [`<Requisito Funcional Um>`](#requisito-funcional-um)  
+   2.1 [Simulação de Orçamentos Online](#simulação-de-orçamentos-online)  
 3. [Utilidade](#utilidade)  
-   3.1 [`<Requisito de Utilidade Um>`](#requisito-de-utilidade-um)  
+   3.1 [Facilidade de Uso e Treinamento Rápido](#facilidade-de-uso-e-treinamento-rápido)  
 4. [Confiabilidade](#confiabilidade)  
-   4.1 [`<Requisito de Confiabilidade Um>`](#requisito-de-confiabilidade-um)  
+   4.1 [Alta Disponibilidade e Redução de Erros](#alta-disponibilidade-e-redução-de-erros)  
 5. [Desempenho](#desempenho)  
-   5.1 [`<Requisito de Desempenho Um>`](#requisito-de-desempenho-um)  
+   5.1 [Respostas em Tempo Real](#respostas-em-tempo-real)  
 6. [Suportabilidade](#suportabilidade)  
-   6.1 [`<Requisito de Suportabilidade Um>`](#requisito-de-suportabilidade-um)  
+   6.1 [Manutenibilidade e Suporte Técnico](#manutenibilidade-e-suporte-técnico)  
 7. [Restrições de Design](#restrições-de-design)  
-   7.1 [`<Restrição de Design Um>`](#restrição-de-design-um)  
+   7.1 [Arquitetura Web e Compatibilidade Mobile](#arquitetura-web-e-compatibilidade-mobile)  
 8. [Documentação do Usuário On-line e Requisitos do Sistema de Ajuda](#documentação-do-usuário-on-line-e-requisitos-do-sistema-de-ajuda)  
 9. [Componentes Comprados](#componentes-comprados)  
 10. [Interfaces](#interfaces)  
@@ -61,146 +61,139 @@
 
 ## Objetivo
 
-[Especifique o objetivo desta Especificação Suplementar.]
+Descrever os requisitos complementares para o desenvolvimento da plataforma de simulação de orçamentos online da Sabina Decorações, com foco em atributos de qualidade, restrições técnicas e integrações.
 
 ---
 
 ## Escopo
 
-[Descreva o escopo desta Especificação Suplementar e os projetos afetados.]
+Abrange os requisitos não-funcionais e aspectos suplementares da solução, aplicáveis ao desenvolvimento da plataforma web de orçamentos personalizados em decoração.
 
 ---
 
 ## Definições, Acrônimos e Abreviações
 
-[Inclua termos, siglas e definições relevantes. Pode remeter ao Glossário do projeto.]
+- UI: Interface de Usuário  
+- UX: Experiência do Usuário  
+- SaaS: Software como Serviço  
+- CRM: Gestão de Relacionamento com o Cliente  
+- API: Interface de Programação de Aplicações  
 
 ---
 
 ## Referências
 
-[Inclua documentos relevantes com título, número do relatório, data e organização responsável.]
+- Documento de Pedidos do Investidor – Sabina Decorações – 21/Mar/25  
+- Relatório de análise de mercado (a ser elaborado)  
 
 ---
 
 ## Visão Geral
 
-[Explique como o documento está organizado.]
+O documento está dividido em seções que tratam de requisitos de funcionalidade, confiabilidade, desempenho, suportabilidade, restrições técnicas, interfaces e padrões legais/regulatórios.
 
 ---
 
 # Funcionalidade
 
-[Descreva os requisitos funcionais do sistema.]
+### Simulação de Orçamentos Online
 
-### `<Requisito Funcional Um>`
-
-[A descrição do requisito.]
+A plataforma deve permitir que os usuários escolham pacotes de decoração personalizados, visualizem os preços em tempo real e gerem orçamentos automaticamente.
 
 ---
 
 # Utilidade
 
-[Inclua requisitos que afetam a experiência do usuário, como tempo de treinamento ou conformidade com padrões de interface.]
+### Facilidade de Uso e Treinamento Rápido
 
-### `<Requisito de Utilidade Um>`
-
-[A descrição do requisito.]
+A plataforma deve apresentar uma interface intuitiva, permitindo seu uso com treinamento mínimo (1-2 horas), mesmo para usuários com pouca familiaridade com tecnologia.
 
 ---
 
 # Confiabilidade
 
-[Defina requisitos como disponibilidade, tempo médio entre falhas (MTBF), tempo médio de reparo (MTTR) e taxa de erros.]
+### Alta Disponibilidade e Redução de Erros
 
-### `<Requisito de Confiabilidade Um>`
-
-[A descrição do requisito.]
+O sistema deverá estar disponível 99,9% do tempo, com capacidade de resposta rápida e confiável. Os processos devem ser automatizados para reduzir falhas humanas.
 
 ---
 
 # Desempenho
 
-[Inclua tempos de resposta, rendimento, capacidade, degradação e uso de recursos.]
+### Respostas em Tempo Real
 
-### `<Requisito de Desempenho Um>`
-
-[A descrição do requisito.]
+Os cálculos de orçamento devem ser realizados com tempo de resposta inferior a 2 segundos, mesmo com múltiplos usuários simultâneos.
 
 ---
 
 # Suportabilidade
 
-[Inclua padrões de codificação, nomenclatura, ferramentas de manutenção e acessibilidade para suporte.]
+### Manutenibilidade e Suporte Técnico
 
-### `<Requisito de Suportabilidade Um>`
-
-[A descrição do requisito.]
+O sistema deve permitir manutenção contínua, com código bem documentado.
 
 ---
 
 # Restrições de Design
 
-[Liste restrições obrigatórias como linguagens de programação, arquitetura e ferramentas.]
+### Arquitetura Web e Compatibilidade Mobile
 
-### `<Restrição de Design Um>`
-
-[A descrição do requisito.]
+O sistema deve ser desenvolvido com arquitetura web responsiva, compatível com dispositivos desktop e mobile..
 
 ---
 
 # Documentação do Usuário On-line e Requisitos do Sistema de Ajuda
 
-[Defina requisitos para documentação online, sistemas de ajuda e suporte ao usuário.]
+A solução deve incluir um manual do usuário online, FAQs.
 
 ---
 
 # Componentes Comprados
 
-[Descreva componentes de terceiros, restrições de licença e compatibilidade.]
+Não se prevê, neste estágio, o uso de componentes de terceiros. Qualquer biblioteca ou framework utilizado deverá ter licença compatível com uso comercial.
 
 ---
 
 # Interfaces
 
-[Defina as interfaces exigidas pelo sistema.]
-
 ## Interfaces com o Usuário
 
-[Descreva as interfaces visuais e interações.]
+Interfaces intuitivas com menus, botões, campos de seleção de pacotes, valores dinâmicos e exportação de orçamento em PDF.
 
 ## Interfaces de Hardware
 
-[Liste interfaces de hardware relevantes.]
+Não aplicável, sistema 100% web.
 
 ## Interfaces de Software
 
-[Descreva conexões com outros sistemas.]
+Integrações previstas com CRM e sistemas de pagamento, em etapas futuras. Inicialmente, o sistema será independente.
 
 ## Interfaces de Comunicações
 
-[Inclua redes, protocolos e comunicação entre sistemas.]
+Comunicação via HTTPS para segurança de dados e envio de informações entre frontend, backend e banco de dados.
 
 ---
 
 # Requisitos de Licença
 
-[Defina requisitos de licença e restrições de uso.]
+A solução deve ser de propriedade da Sabina Decorações. Caso utilize componentes externos, devem estar sob licença permissiva (ex: MIT, Apache 2.0).
 
 ---
 
 # Observações Legais, sobre Direitos Autorais e Outras Observações
 
-[Inclua isenções legais, patentes e conformidade.]
+Todos os dados dos usuários devem ser protegidos.
 
 ---
 
 # Padrões Aplicáveis
 
-[Liste padrões legais, regulatórios e de mercado.]
+- LGPD (Lei Geral de Proteção de Dados)  
+- W3C – Padrões Web  
+- OWASP – Boas práticas de segurança em aplicações web  
 
 ---
 
 # Confidencialidade
 
-© `<Nome da Empresa>`, 2006
+© `Sabina Decorações`, 2025
