@@ -1,10 +1,10 @@
-# <Project Name>
+# <Sabina Decorações>
 
 ## Vision
 
-**Data:** `<dd/mmm/aa>`
+**Data:** `<07/03/2025>`
 
-## <Nome do Projeto>
+## <Sabina Decorações>
 
 # Visão
 
@@ -18,43 +18,37 @@
 
 #### Instrução do Problema
 
-Forneça uma instrução que resume o problema sendo resolvido por esse projeto. Pode ser utilizado o seguinte formato:
-
 - **O problema de**  
-  `[descreva o problema]`
+  dificuldade de acesso a serviços personalizados de decoração
 
 - **Afeta**  
-  `[os interessados afetados pelo problema]`
+  clientes que buscam soluções diferenciadas e otimizadas para seus eventos
 
 - **O impacto do qual é**  
-  `[qual é o impacto do problema?]`
+  tempo excessivo gasto na contratação, falta de transparência nos preços e dificuldade na comunicação com a empresa.
 
 - **Uma solução bem-sucedida seria**  
-  `[liste alguns dos principais benefícios de uma solução bem-sucedida]`
+  uma plataforma digital intuitiva que facilite a contratação de serviços, ofereça transparência nos preços e permita interação direta com os clientes.
 
 #### Instrução sobre a Posição do Produto
 
-Forneça uma instrução geral que resuma, no nível mais alto, a posição exclusiva que o produto pretende ocupar no mercado. Pode ser utilizado o seguinte formato:
-
 - **Para**  
-  `[cliente alvo]`
+  clientes que buscam decoração personalizada e prática para seus eventos
 
 - **Que**  
-  `[instrução da necessidade ou da oportunidade]`
+  desejam rapidez, transparência e facilidade na contratação dos serviços
 
 - **O (nome do produto)**  
-  `é uma [categoria do produto]`
+  Sabina Decorações
 
 - **Que**  
-  `[instrução do principal benefício; ou seja, a razão influente para compra]`
+  é uma plataforma online de orçamento e contratação de serviços de decoração
 
 - **A menos que**  
-  `[alternativa competitiva principal]`
+  permite que os clientes explorem o portfólio da empresa, solicitem orçamentos personalizados e agendem reuniões com consultores.
 
 - **Nosso produto**  
-  `[instrução da diferenciação principal]`
-
-> **Nota:** Uma instrução de posição do produto comunica o propósito do aplicativo e a importância do projeto à toda a equipe interessada.
+  oferece um diferencial competitivo ao proporcionar uma experiência integrada, ágil e acessível
 
 ---
 
@@ -62,9 +56,10 @@ Forneça uma instrução geral que resuma, no nível mais alto, a posição excl
 
 ### Resumo do Envolvido
 
-| Nome  | Descrição | Responsabilidades |
-|-------|-----------|------------------|
-| `[Nomeie o tipo de envolvido]` | `[Descreva resumidamente o envolvido]` | `[Resuma as responsabilidades principais do envolvido em relação ao sistema sendo desenvolvido]` |
+| Nome         | Descrição                                 | Responsabilidades                                                 |
+|--------------|--------------------------------------------|-------------------------------------------------------------------|
+| Cliente      | Pessoa que busca serviços de decoração     | Explorar o portfólio, solicitar orçamentos, agendar serviços      |
+| Gerente      | Especialista em decoração de eventos       | Oferecer suporte aos clientes, planejar decorações personalizadas |
 
 > Exemplo de responsabilidades:  
 > - Assegura que o sistema será passível de manutenção  
@@ -76,13 +71,11 @@ Forneça uma instrução geral que resuma, no nível mais alto, a posição excl
 
 ## Ambiente do Usuário
 
-Detalhe o ambiente de trabalho do usuário alvo. Algumas sugestões:
+Os usuários incluem clientes em potencial, organizadores de eventos e administradores da plataforma.
 
-- Número de pessoas envolvidas na conclusão da tarefa? Isso está mudando?
-- Quanto tempo dura um ciclo de tarefas? Período de tempo gasto em cada atividade? Isso está mudando?
-- Há quaisquer restrições ambientais exclusivas: móveis, externas, inflight e assim por diante?
-- Quais plataformas do sistema estão em uso atualmente? Futuras plataformas?
-- Quais outros aplicativos estão em uso? O seu aplicativo precisa se integrar a eles?
+A interação ocorrerá através de dispositivos móveis e desktops.
+
+A plataforma precisará integrar-se a redes sociais e ferramentas de comunicação como WhatsApp e e-mail.
 
 > Aqui poderiam ser incluídos extratos do **Modelo de Negócios** para descrever a tarefa e as funções envolvidas.
 
@@ -92,19 +85,15 @@ Detalhe o ambiente de trabalho do usuário alvo. Algumas sugestões:
 
 ### Perspectiva do Produto
 
-Essa subseção do documento de Visão coloca o produto na perspectiva de outros produtos relacionados e no ambiente do usuário.
-
-Se o produto for independente e totalmente autônomo, indique-o aqui. Se o produto for um **componente de um sistema maior**, relacione como esses sistemas interagem e identifique as interfaces relevantes entre os sistemas.
+O Sabina Decorações Digital será um sistema autônomo, mas poderá ser integrado a redes sociais para ampliação da visibilidade da empresa.
 
 > Uma maneira fácil de exibir os principais componentes do sistema maior, as interconexões e as interfaces externas é com um **diagrama de bloco**.
 
 ### Premissas e Dependências
 
-Liste cada fator que afeta os recursos indicados no documento de Visão. Liste as premissas que, se modificadas, alterarão o documento.
-
-Exemplo de premissa:  
-- Um sistema operacional específico estará disponível para o hardware designado para o produto de software.  
-- Se o sistema operacional não estiver disponível, o documento de Visão precisará ser alterado.
+- O sistema precisará de conexão com serviços de pagamento online.  
+- As fotos do portfólio deverão ser de alta qualidade e otimizadas para carregamento rápido.  
+- A segurança dos dados dos clientes deve ser priorizada, garantindo conformidade com a LGPD.
 
 ---
 
@@ -112,9 +101,11 @@ Exemplo de premissa:
 
 > **Evite o design.** Mantenha as descrições no nível geral. Concentre-se nos recursos necessários e no **porquê** (não em **como**) eles devem ser implementados.
 
-| Necessidade | Prioridade | Recursos | Liberação Planejada |
-|------------|-----------|---------|-------------------|
-| `[Necessidade]` | `[Alta/Média/Baixa]` | `[Recurso necessário]` | `[Data estimada]` |
+| Necessidade                        | Prioridade | Recursos                                | Liberação Planejada |
+|-----------------------------------|------------|------------------------------------------|---------------------|
+| Plataforma responsiva e intuitiva | Alta       | Desenvolvimento web e mobile             | -                   |
+| Sistema de orçamento online       | Alta       | Cálculo dinâmico baseado em seleção do usuário | -             |
+| Gerenciamento de pedidos e agendamentos | Alta | Painel administrativo                    | -                   |
 
 ---
 
@@ -123,12 +114,17 @@ Exemplo de premissa:
 Identifique as alternativas das percepções do interessado, conforme disponíveis.  
 Elas podem incluir:
 
-- Compra de um produto do concorrente
-- Compra de uma solução desenvolvida internamente
+- Compra de um produto do concorrente  
+- Compra de uma solução desenvolvida internamente  
 - Manutenção do **status quo**
 
-Liste todas as opções competitivas conhecidas ou que possam surgir.  
-Inclua as principais **forças** e **fraquezas** de cada concorrente, conforme percebido pelo envolvido ou usuário final.
+Atualmente, os clientes possuem as seguintes opções para contratar serviços de decoração:
+
+- Contratação tradicional via telefone e WhatsApp - Processo lento e sujeito a falhas de comunicação.  
+- Serviços de divulgações gerais - Pouca personalização e contato indireto com os decoradores.  
+- Agências especializadas - Opção premium, mas com custos elevados e pouca flexibilidade para clientes menores.  
+
+Nosso diferencial é oferecer uma plataforma que combina praticidade, personalização e transparência, garantindo que o cliente tenha maior autonomia na contratação do serviço.
 
 ---
 
@@ -138,27 +134,27 @@ Inclua as principais **forças** e **fraquezas** de cada concorrente, conforme p
 
 Defina as **faixas de qualidade** para:
 
-- Desempenho
-- Robustez
-- Tolerância a falhas
-- Usabilidade
-- Características não capturadas no Conjunto de Recursos
+- **Desempenho:** tempo de carregamento não deve ultrapassar 3 segundos  
+- **Robustez:** sistema deve operar de forma estável mesmo com múltiplas solicitações simultâneas  
+- **Tolerância a falhas:** deve evitar perda de dados e manter logs de erros  
+- **Usabilidade:** interface intuitiva, compatível com dispositivos móveis  
+- **Características não capturadas no Conjunto de Recursos:** compatibilidade com futuras atualizações de redes sociais e meios de pagamento  
 
 Anote quaisquer **restrições externas ou dependências**, como:
 
-- Restrições de design
-- Documentação necessária (manuais, ajuda online, instalação, etc.)
-- Embalagem e identificação
+- Restrições de design  
+- Documentação necessária (manuais, ajuda online, instalação, etc.)  
+- Embalagem e identificação  
 
 Defina **prioridade** desses requisitos e atributos como:
 
-- **Estabilidade**
-- **Benefício**
-- **Esforço**
+- **Estabilidade**  
+- **Benefício**  
+- **Esforço**  
 - **Risco**
 
 ---
 
 ## Confidencial
 
-© `<Company Name>`, 2006
+© `<Sabina Decorações>`, 2025
