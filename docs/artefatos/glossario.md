@@ -1,22 +1,22 @@
-# <Nome da Empresa>
+# Sabina Decorações
 
-## <Nome do Projeto>
+## Plataforma Digital de Decoração
 
-**Versão:** `<1.0>`
+**Versão:** `1.0`
 
 # Glossário
 
-**Data:** `<dd/mmm/aa>`
+**Data:** `28/mar/2025`
 
-<identificador do documento>
+Identificador do Documento: GLOS-SABINA-DEC-2025-V1.0
 
 ---
 
 ## Histórico da Revisão
 
-| Data | Versão | Descrição | Autor |
-|------|--------|-----------|--------|
-| `<dd/mmm/aa>` | `<x.x>` | `<detalhes>` | `<nome>` |
+| Data        | Versão | Descrição                      | Autor |
+|-------------|--------|-------------------------------|--------|
+| 28/mar/2025 | 1.0    | Criação do glossário inicial | Lucas  |
 
 ---
 
@@ -28,122 +28,101 @@
    1.3 [Referências](#referências)  
    1.4 [Visão Geral](#visão-geral)  
 2. [Definições](#definições)  
-   2.1 [`<aTerm>`](#aTerm)  
-   2.2 [`<anotherTerm>`](#anotherTerm)  
-   2.3 [`<aGroupofTerms>`](#aGroupofTerms)  
-       - 2.3.1 [`<aGroupTerm>`](#aGroupTerm)  
-       - 2.3.2 [`<anotherGroupTerm>`](#anotherGroupTerm)  
-   2.4 [`<aSecondGroupofTerms>`](#aSecondGroupofTerms)  
-       - 2.4.1 [`<yetAnotherGroupTerm>`](#yetAnotherGroupTerm)  
-       - 2.4.2 [`<andAnotherGroupTerm>`](#andAnotherGroupTerm)  
-3. [Estereótipos UML](#estereótipos-uml)
+   2.1 [Cliente](#cliente)  
+   2.2 [Plataforma Digital](#plataforma-digital)  
+   2.3 [Termos Técnicos](#termos-técnicos)  
+       - 2.3.1 [Orçamento Personalizado](#orçamento-personalizado)  
+       - 2.3.2 [Portfólio](#portfólio)  
+   2.4 [Tecnologias e Integrações](#tecnologias-e-integrações)  
+       - 2.4.1 [Integração com Redes Sociais](#integração-com-redes-sociais)  
+       - 2.4.2 [Painel Administrativo](#painel-administrativo)  
+3. [Estereótipos UML](#estereótipos-uml)  
+4. [Confidencialidade](#confidencialidade)
 
 ---
 
 # Introdução
 
-*A introdução do Glossário fornece uma visão geral de todo o documento. Apresente quaisquer informações que o leitor possa precisar para entender o documento nesta seção.*
-
-Este documento é utilizado para definir a **terminologia específica do domínio do problema**, explicando termos que possam não ser familiares ao leitor das descrições de **caso de uso** ou outros documentos do projeto.
-
-**Finalidade**: Pode ser usado como um **dicionário de dados informal**, capturando definições para facilitar a compreensão dos documentos do projeto.
-
-> **Nota:** Este documento deve ser salvo como **"Glossário"**.
+Este documento tem como objetivo fornecer um conjunto padronizado de termos utilizados no projeto **Sabina Decorações**, voltado ao desenvolvimento de uma plataforma digital para contratação de serviços personalizados de decoração. Ele visa garantir uma comunicação clara entre os membros da equipe de desenvolvimento, stakeholders e usuários.
 
 ---
 
 ## Objetivo
 
-[Especifique o objetivo deste Glossário.]
+O objetivo deste glossário é descrever e padronizar os termos usados no contexto do projeto "Plataforma Digital de Decoração – Sabina Decorações", promovendo uma compreensão comum entre todas as partes envolvidas no projeto.
 
 ---
 
 ## Escopo
 
-[Uma breve descrição do escopo deste Glossário; a quais Projeto(s) ele está associado e tudo mais que seja afetado ou influenciado por este documento.]
+Este glossário abrange todos os termos relacionados à análise, desenvolvimento, documentação e uso da plataforma digital Sabina Decorações. Está associado aos documentos de visão, casos de uso, diagramas UML, requisitos e protótipos do projeto.
 
 ---
 
 ## Referências
 
-Lista de documentos mencionados:
-
-- **Título**  
-- **Número do relatório (se aplicável)**  
-- **Data**  
-- **Organização responsável pela publicação**  
-
-> **Nota:** As informações podem estar em **anexos** ou documentos externos.
+- Documento de Visão
+- Pedido do investidor  
+- Especificação Complementar
+- Visão do Projeto
 
 ---
 
 ## Visão Geral
 
-[Esta subseção descreve o que o restante do Glossário contém e explica como o documento é organizado.]
+O restante deste glossário apresenta os principais termos utilizados no domínio do projeto, organizados por ordem alfabética e por grupos temáticos, como termos técnicos, funcionalidades da plataforma e integrações.
 
 ---
 
 # Definições
 
-Os termos definidos aqui formam a **substância essencial** do documento.  
-Eles podem ser apresentados em **qualquer ordem**, mas a **ordem alfabética** geralmente facilita a navegação.
+## Cliente
+
+Pessoa que busca serviços personalizados de decoração para eventos diversos, como casamentos, aniversários, formaturas, entre outros. Pode navegar no site, visualizar o portfólio e realizar solicitações de orçamento.
 
 ---
 
-## `<aTerm>`
+## Plataforma Digital
 
-*A definição para `<aTerm>` é apresentada aqui. Devem ser apresentadas tantas informações quantas forem necessárias para o leitor entender o conceito.*
-
----
-
-## `<anotherTerm>`
-
-*A definição para `<anotherTerm>` é apresentada aqui. Devem ser apresentadas tantas informações quantas forem necessárias para o leitor entender o conceito.*
+Sistema online que possibilita a contratação de serviços personalizados de decoração por meio de navegação intuitiva, com recursos como orçamento automático, portfólio visual e agendamento.
 
 ---
 
-## `<aGroupofTerms>`
+## Termos Técnicos
 
-> Às vezes, é útil organizar termos em **grupos** para aprimorar a clareza.  
-> Por exemplo, se o domínio do problema contiver termos de diferentes áreas (como **contabilidade** e **construção**), apresentá-los misturados pode dificultar a compreensão.  
-> O agrupamento ajuda a **organizar melhor as informações**.
+### Orçamento Personalizado
 
-### `<aGroupTerm>`
+Funcionalidade da plataforma que permite ao cliente simular e receber um valor estimado para a decoração do seu evento, com base em preferências como tema, local, data e quantidade de itens.
 
-*A definição para `<aGroupTerm>` é apresentada aqui.*
+### Portfólio
 
-### `<anotherGroupTerm>`
-
-*A definição para `<anotherGroupTerm>` é apresentada aqui.*
+Conjunto de fotos e vídeos demonstrando trabalhos anteriores realizados pela empresa Sabina Decorações. Serve como vitrine para o cliente avaliar a qualidade dos serviços.
 
 ---
 
-## `<aSecondGroupofTerms>`
+## Tecnologias e Integrações
 
-### `<yetAnotherGroupTerm>`
+### Integração com Redes Sociais
 
-*A definição para `<yetAnotherGroupTerm>` é apresentada aqui.*
+Capacidade da plataforma de compartilhar ou redirecionar conteúdos diretamente para o Instagram, Facebook, e outras redes sociais, ampliando o alcance e a divulgação dos serviços.
 
-### `<andAnotherGroupTerm>`
+### Painel Administrativo
 
-*A definição para `<andAnotherGroupTerm>` é apresentada aqui.*
+Interface restrita aos gerentes e administradores, utilizada para gerenciamento de orçamentos, pedidos, agendamentos, controle de estoque de itens decorativos e histórico de clientes.
 
 ---
 
 # Estereótipos UML
 
-> Esta seção contém ou faz referência a **especificações de estereótipos UML** (Linguagem de Modelagem Unificada) e suas implicações semânticas.  
+O projeto pode fazer uso dos estereótipos UML padrão, como:
 
-Os estereótipos podem ser utilizados para:
-
-- **Melhorar a compreensão dos modelos**
-- **Seguir padrões impostos**
-- **Facilitar a interpretação do sistema sendo modelado**
-
-Se não houver **estereótipos adicionais**, além dos já definidos pela **UML** e pelo **Rational Unified Process**, esta seção pode ser deixada **em branco**.
+- `<<actor>>`: Representa os usuários do sistema (cliente, gerente).
+- `<<boundary>>`: Interface entre usuários e o sistema.
+- `<<control>>`: Representa a lógica de controle das funcionalidades.
+- `<<entity>>`: Modela os dados armazenados (ex: cliente, pedido, item).
 
 ---
 
 # Confidencialidade
 
-© `<Nome da Empresa>`, 2006
+© Sabina Decorações, 2025
