@@ -1,22 +1,22 @@
 # Sabina Decorações
 
-## Plataforma on-line Sabina Decorações
+## Plataforma de Orçamento Online
 
 **Versão:** `1.0`
 
 # Especificação Complementar
 
-**Data:** `21/Mar/25`
+**Data:** `12/nov/2025`
 
-Sabina-Invest-SPEC-2025
+<identificador do documento>
 
 ---
 
 ## Histórico da Revisão
 
-| Data       | Versão | Descrição         | Autor |
-|------------|--------|-------------------|--------|
-| 21/Mar/25  | 1.0    | Documento Inicial | Lucas  |
+| Data       | Versão | Descrição                                      | Autor          |
+|------------|--------|------------------------------------------------|----------------|
+| `12/nov/2025` | `1.0`  | Criação da especificação inicial.              | Lucas          |
 
 ---
 
@@ -29,17 +29,17 @@ Sabina-Invest-SPEC-2025
    1.4 [Referências](#referências)  
    1.5 [Visão Geral](#visão-geral)  
 2. [Funcionalidade](#funcionalidade)  
-   2.1 [Simulação de Orçamentos Online](#simulação-de-orçamentos-online)  
+   2.1 [`Simulação de Orçamento Online`](#simulação-de-orçamento-online)  
 3. [Utilidade](#utilidade)  
-   3.1 [Facilidade de Uso e Treinamento Rápido](#facilidade-de-uso-e-treinamento-rápido)  
+   3.1 [`Interface Intuitiva`](#interface-intuitiva)  
 4. [Confiabilidade](#confiabilidade)  
-   4.1 [Alta Disponibilidade e Redução de Erros](#alta-disponibilidade-e-redução-de-erros)  
+   4.1 [`Alta Disponibilidade`](#alta-disponibilidade)  
 5. [Desempenho](#desempenho)  
-   5.1 [Respostas em Tempo Real](#respostas-em-tempo-real)  
+   5.1 [`Resposta Rápida`](#resposta-rápida)  
 6. [Suportabilidade](#suportabilidade)  
-   6.1 [Manutenibilidade e Suporte Técnico](#manutenibilidade-e-suporte-técnico)  
+   6.1 [`Facilidade de Manutenção`](#facilidade-de-manutenção)  
 7. [Restrições de Design](#restrições-de-design)  
-   7.1 [Arquitetura Web e Compatibilidade Mobile](#arquitetura-web-e-compatibilidade-mobile)  
+   7.1 [`Uso de Tecnologias Web Responsivas`](#uso-de-tecnologias-web-responsivas)  
 8. [Documentação do Usuário On-line e Requisitos do Sistema de Ajuda](#documentação-do-usuário-on-line-e-requisitos-do-sistema-de-ajuda)  
 9. [Componentes Comprados](#componentes-comprados)  
 10. [Interfaces](#interfaces)  
@@ -61,139 +61,149 @@ Sabina-Invest-SPEC-2025
 
 ## Objetivo
 
-Descrever os requisitos complementares para o desenvolvimento da plataforma de simulação de orçamentos online da Sabina Decorações, com foco em atributos de qualidade, restrições técnicas e integrações.
+O objetivo desta especificação é descrever os requisitos técnicos e funcionais para a plataforma de orçamentos online da Sabina Decorations. O sistema visa melhorar a eficiência do processo de orçamento e agendamento de serviços, além de garantir uma experiência mais transparente e acessível para os clientes.
 
 ---
 
 ## Escopo
 
-Abrange os requisitos não-funcionais e aspectos suplementares da solução, aplicáveis ao desenvolvimento da plataforma web de orçamentos personalizados em decoração.
+Esta especificação abrange a criação de uma plataforma que permita aos clientes da Sabina Decorations realizar orçamentos personalizados, visualizar preços em tempo real, agendar serviços e personalizar pacotes de decoração. O sistema será acessível tanto para desktop quanto para dispositivos móveis.
 
 ---
 
 ## Definições, Acrônimos e Abreviações
 
-- UI: Interface de Usuário  
-- UX: Experiência do Usuário  
-- SaaS: Software como Serviço  
-- CRM: Gestão de Relacionamento com o Cliente  
-- API: Interface de Programação de Aplicações  
+- **API**: Interface de Programação de Aplicações.
+- **UX**: Experiência do Usuário.
+- **UI**: Interface de Usuário.
 
 ---
 
 ## Referências
 
-- Documento de Pedidos do Investidor – Sabina Decorações – 21/Mar/25  
-- Relatório de análise de mercado (a ser elaborado)  
+- Manual de Design de Interfaces (Sabina Decorations, 2025).
+- Guia de Boas Práticas para Desenvolvimento Web (W3C, 2024).
 
 ---
 
 ## Visão Geral
 
-O documento está dividido em seções que tratam de requisitos de funcionalidade, confiabilidade, desempenho, suportabilidade, restrições técnicas, interfaces e padrões legais/regulatórios.
+Este documento está estruturado para fornecer uma descrição completa da plataforma de orçamentos online, incluindo os requisitos funcionais, usabilidade, confiabilidade, desempenho, entre outros aspectos técnicos necessários para o desenvolvimento do sistema.
 
 ---
 
 # Funcionalidade
 
-### Simulação de Orçamentos Online
+A plataforma de orçamentos online terá funcionalidades que permitirão aos clientes personalizar pacotes, visualizar preços e agendar serviços de maneira ágil.
 
-A plataforma deve permitir que os usuários escolham pacotes de decoração personalizados, visualizem os preços em tempo real e gerem orçamentos automaticamente.
+### Simulação de Orçamento Online
+
+A plataforma permitirá que os usuários escolham pacotes de decoração e visualizem o preço em tempo real, gerando orçamentos automáticos.
 
 ---
 
 # Utilidade
 
-### Facilidade de Uso e Treinamento Rápido
+A plataforma será projetada para ser intuitiva e fácil de usar, permitindo que os clientes possam realizar suas escolhas de forma rápida e sem a necessidade de treinamento prévio.
 
-A plataforma deve apresentar uma interface intuitiva, permitindo seu uso com treinamento mínimo (1-2 horas), mesmo para usuários com pouca familiaridade com tecnologia.
+### Interface Intuitiva
+
+A interface será simples e objetiva, adaptada para dispositivos móveis e desktops, proporcionando uma experiência fluida e agradável.
 
 ---
 
 # Confiabilidade
 
-### Alta Disponibilidade e Redução de Erros
+O sistema será projetado para garantir alta disponibilidade e tempo de resposta mínimo.
 
-O sistema deverá estar disponível 99,9% do tempo, com capacidade de resposta rápida e confiável. Os processos devem ser automatizados para reduzir falhas humanas.
+### Alta Disponibilidade
+
+O sistema deverá garantir um tempo de operação contínuo, com mínima interrupção, mesmo em momentos de alta demanda.
 
 ---
 
 # Desempenho
 
-### Respostas em Tempo Real
+O sistema deverá ser otimizado para fornecer respostas rápidas e eficazes, garantindo que os usuários não enfrentem atrasos durante a navegação e geração de orçamentos.
 
-Os cálculos de orçamento devem ser realizados com tempo de resposta inferior a 2 segundos, mesmo com múltiplos usuários simultâneos.
+### Resposta Rápida
+
+O tempo de resposta para a geração de orçamentos deverá ser inferior a 3 segundos.
 
 ---
 
 # Suportabilidade
 
-### Manutenibilidade e Suporte Técnico
+A plataforma será desenvolvida com boas práticas de codificação, facilitando futuras manutenções e atualizações.
 
-O sistema deve permitir manutenção contínua, com código bem documentado.
+### Facilidade de Manutenção
+
+O código será bem documentado e modular, facilitando ajustes e a integração com novos módulos e serviços.
 
 ---
 
 # Restrições de Design
 
-### Arquitetura Web e Compatibilidade Mobile
+O sistema será desenvolvido utilizando tecnologias web responsivas para garantir a compatibilidade com diversos dispositivos.
 
-O sistema deve ser desenvolvido com arquitetura web responsiva, compatível com dispositivos desktop e mobile..
+### Uso de Tecnologias Web Responsivas
+
+A plataforma será otimizada para funcionar de maneira eficiente em diferentes tamanhos de tela, sem comprometer a usabilidade.
 
 ---
 
 # Documentação do Usuário On-line e Requisitos do Sistema de Ajuda
 
-A solução deve incluir um manual do usuário online, FAQs.
+A plataforma contará com uma seção de ajuda online que fornecerá suporte aos usuários, com informações detalhadas sobre como utilizar todas as funcionalidades do sistema.
 
 ---
 
 # Componentes Comprados
 
-Não se prevê, neste estágio, o uso de componentes de terceiros. Qualquer biblioteca ou framework utilizado deverá ter licença compatível com uso comercial.
+Nenhum componente comprado será necessário, já que a solução será totalmente desenvolvida internamente.
 
 ---
 
 # Interfaces
 
+O sistema precisará de diversas interfaces para garantir a integração com o usuário e outros sistemas.
+
 ## Interfaces com o Usuário
 
-Interfaces intuitivas com menus, botões, campos de seleção de pacotes, valores dinâmicos e exportação de orçamento em PDF.
+A plataforma terá interfaces visuais adaptáveis para desktop e dispositivos móveis, com foco na simplicidade e clareza.
 
 ## Interfaces de Hardware
 
-Não aplicável, sistema 100% web.
+O sistema será projetado para operar em servidores web padrão, com requisitos mínimos de hardware que atendem às necessidades da plataforma.
 
 ## Interfaces de Software
 
-Integrações previstas com CRM e sistemas de pagamento, em etapas futuras. Inicialmente, o sistema será independente.
+A plataforma deverá integrar-se com sistemas de gerenciamento de clientes e pagamentos, utilizando APIs para facilitar a comunicação entre os sistemas.
 
 ## Interfaces de Comunicações
 
-Comunicação via HTTPS para segurança de dados e envio de informações entre frontend, backend e banco de dados.
+O sistema utilizará protocolos HTTP/HTTPS para comunicação entre o cliente e o servidor.
 
 ---
 
 # Requisitos de Licença
 
-A solução deve ser de propriedade da Sabina Decorações. Caso utilize componentes externos, devem estar sob licença permissiva (ex: MIT, Apache 2.0).
+A plataforma será desenvolvida sem o uso de componentes de terceiros, portanto, não há restrições de licenciamento.
 
 ---
 
 # Observações Legais, sobre Direitos Autorais e Outras Observações
 
-Todos os dados dos usuários devem ser protegidos.
+Todos os direitos autorais relacionados ao sistema de orçamentos online pertencem à Sabina Decorations.
 
 ---
 
 # Padrões Aplicáveis
 
-- LGPD (Lei Geral de Proteção de Dados)  
-- W3C – Padrões Web  
-- OWASP – Boas práticas de segurança em aplicações web  
+O desenvolvimento da plataforma seguirá os padrões da W3C para acessibilidade e boas práticas de desenvolvimento web.
 
 ---
 
 # Confidencialidade
 
-© `Sabina Decorações`, 2025
+© Sabina Decorations, 2025
