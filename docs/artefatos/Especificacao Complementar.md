@@ -61,13 +61,13 @@
 
 ## Objetivo
 
-O objetivo desta especificação é descrever os requisitos técnicos e funcionais para a plataforma de orçamentos online da Sabina Decorations. O sistema visa melhorar a eficiência do processo de orçamento e agendamento de serviços, além de garantir uma experiência mais transparente e acessível para os clientes.
+O objetivo desta especificação é descrever os requisitos técnicos e funcionais para a plataforma de orçamentos online da Sabina Decorações. O sistema visa melhorar a eficiência do processo de orçamento e agendamento de serviços, além de garantir uma experiência mais transparente e acessível para os clientes.
 
 ---
 
 ## Escopo
 
-Esta especificação abrange a criação de uma plataforma que permita aos clientes da Sabina Decorations realizar orçamentos personalizados, visualizar preços em tempo real, agendar serviços e personalizar pacotes de decoração. O sistema será acessível tanto para desktop quanto para dispositivos móveis.
+Esta especificação abrange a criação de uma plataforma que permita aos clientes da Sabina Decorações realizar orçamentos personalizados, visualizar preços em tempo real, agendar serviços e personalizar pacotes de decoração. O sistema será acessível tanto para desktop quanto para dispositivos móveis.
 
 ---
 
@@ -81,7 +81,7 @@ Esta especificação abrange a criação de uma plataforma que permita aos clien
 
 ## Referências
 
-- Manual de Design de Interfaces (Sabina Decorations, 2025).
+- Manual de Design de Interfaces (Sabina Decorações, 2025).
 - Guia de Boas Práticas para Desenvolvimento Web (W3C, 2024).
 
 ---
@@ -194,7 +194,7 @@ A plataforma será desenvolvida sem o uso de componentes de terceiros, portanto,
 
 # Observações Legais, sobre Direitos Autorais e Outras Observações
 
-Todos os direitos autorais relacionados ao sistema de orçamentos online pertencem à Sabina Decorations.
+Todos os direitos autorais relacionados ao sistema de orçamentos online pertencem à Sabina Decorações.
 
 ---
 
@@ -206,4 +206,4 @@ O desenvolvimento da plataforma seguirá os padrões da W3C para acessibilidade 
 
 # Confidencialidade
 
-© Sabina Decorations, 2025
+© Sabina Decorações, 2025
