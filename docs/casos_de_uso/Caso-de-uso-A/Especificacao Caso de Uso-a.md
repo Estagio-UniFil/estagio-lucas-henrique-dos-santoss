@@ -1,12 +1,12 @@
-# <Nome da Empresa>
+# Sabina Decorações
 
 ## <Nome do Projeto>
 
 **Versão:** `<1.0>`
 
-# Especificação de Caso de Uso: <Nome do Caso de Uso>
+# Especificação de Caso de Uso: Agendar Reuniões
 
-**Data:** `<dd/mmm/aa>`
+**Data:** `<13/05/2025>`
 
 <identificador do documento>
 
@@ -14,9 +14,9 @@
 
 ## Histórico da Revisão
 
-| Data | Versão | Descrição | Autor |
-|------|--------|-----------|--------|
-| `<dd/mmm/aa>` | `<x.x>` | `<detalhes>` | `<nome>` |
+| Data       | Versão | Descrição         | Autor     |
+|------------|--------|-------------------|-----------|
+| `<13/05/2025>` | `<1.1>` | `<Criação Inicia>` | `<Lucas Henrique dos Santos>` |
 
 ---
 
@@ -25,151 +25,96 @@
 1. [Breve Descrição](#breve-descrição)  
 2. [Fluxo Básico de Eventos](#fluxo-básico-de-eventos)  
 3. [Fluxos Alternativos](#fluxos-alternativos)  
-   3.1 [<Área de Funcionalidade>](#área-de-funcionalidade)  
-       - 3.1.1 [< A1 Primeiro Fluxo Alternativo >](#a1-primeiro-fluxo-alternativo)  
-       - 3.1.2 [< A2 Segundo Fluxo Alternativo >](#a2-segundo-fluxo-alternativo)  
-   3.2 [<Outra Área de Funcionalidade>](#outra-área-de-funcionalidade)  
-       - 3.2.1 [< AN Outro Fluxo Alternativo >](#an-outro-fluxo-alternativo)  
+   3.1 [Controle de Horários](#controle-de-horários)  
+   3.2 [Erro de Conflito de Agenda](#erro-de-conflito-de-agenda)  
 4. [Subfluxos](#subfluxos)  
-   4.1 [<S1 Primeiro Subfluxo >](#s1-primeiro-subfluxo)  
-   4.2 [<S2 Segundo Subfluxo >](#s2-segundo-subfluxo)  
+   4.1 [Subfluxo de Notificação](#subfluxo-de-notificação)  
 5. [Cenários Chave](#cenários-chave)  
 6. [Condições Prévias](#condições-prévias)  
-   6.1 [< Condição Prévia Um >](#condição-prévia-um)  
 7. [Condições Posteriores](#condições-posteriores)  
-   7.1 [< Pós-condição Um >](#pós-condição-um)  
 8. [Pontos de Extensão](#pontos-de-extensão)  
-   8.1 [<Nome do Ponto de Extensão>](#nome-do-ponto-de-extensão)  
 9. [Requisitos Especiais](#requisitos-especiais)  
-   9.1 [< Primeiro Requisito Especial >](#primeiro-requisito-especial)  
 10. [Informações Adicionais](#informações-adicionais)  
 
 ---
 
 # Breve Descrição
 
-[A descrição apresenta resumidamente a função e o objetivo do caso de uso.]
+[Descrição resumida do objetivo e da função do caso de uso "Agendar Reuniões". Este caso de uso permite que o usuário agende uma reunião, verificando a disponibilidade de horários e enviando convites.]
 
 ---
 
 # Fluxo Básico de Eventos
 
-- Este caso de uso **é iniciado por um agente**.  
-- Ele descreve o que o **agente faz** e **como o sistema responde**.  
-- Expressado como um **diálogo entre o agente e o sistema**.  
-- Evite detalhes sobre **como ou por que** algo acontece.  
-- Defina **dados específicos** transmitidos (ex: "Nome e Endereço do Cliente").  
-
-Se houver **alternativas simples**, inclua diretamente no fluxo.  
-Para **alternativas complexas**, utilize a seção **Fluxos Alternativos**.
+1. O caso de uso **é iniciado por um usuário** (Cliente).
+2. O usuário seleciona a data e o horário para a reunião.
+3. O sistema verifica a disponibilidade do horário.
+4. O sistema confirma o agendamento, caso o horário esteja disponível.
+5. O sistema envia um convite para os participantes da reunião.
+6. O caso de uso é finalizado.
 
 ---
 
 # Fluxos Alternativos
 
-**Fluxos alternativos são variações do fluxo principal, geralmente devido a exceções.**  
-Cada fluxo alternativo deve:
+## Controle de Horários
 
-- Indicar claramente **quando ocorre**.
-- Explicar **as condições necessárias**.
-- Especificar **como retorna ao fluxo principal**.
+- **Quando:** O horário solicitado já está ocupado.
+- **Ação:** O sistema sugere horários alternativos ou notifica o usuário de que o horário não está disponível.
+- **Retorno ao fluxo principal:** O usuário escolhe um novo horário e prossegue com o agendamento.
 
-## <Área de Funcionalidade>
+## Erro de Conflito de Agenda
 
-[Os fluxos alternativos podem ser agrupados por funcionalidade relacionada.]
-
-### < A1 Primeiro Fluxo Alternativo >
-
-[Descrição detalhada deste fluxo.]
-
-### < A2 Segundo Fluxo Alternativo >
-
-[Descrição detalhada deste fluxo.]
-
-## <Outra Área de Funcionalidade>
-
-### < AN Outro Fluxo Alternativo >
-
-[Descrição detalhada deste fluxo.]
+- **Quando:** O sistema não consegue verificar a disponibilidade por erro de sistema.
+- **Ação:** O sistema informa o erro ao usuário e solicita nova tentativa.
+- **Retorno ao fluxo principal:** O usuário tenta novamente.
 
 ---
 
 # Subfluxos
 
-Subfluxos devem ter um objetivo claro e serem "atômicos" (todos os passos ocorrem juntos ou não ocorrem).
+## Subfluxo de Notificação
 
-### <S1 Primeiro Subfluxo >
-
-[Descrição do subfluxo.]
-
-### <S2 Segundo Subfluxo >
-
-[Descrição do subfluxo.]
+1. Após a confirmação do agendamento, o sistema envia um e-mail de confirmação para o usuário e os participantes.
+2. O sistema registra o evento na agenda.
 
 ---
 
 # Cenários Chave
 
-Liste os **cenários mais importantes** do caso de uso.  
-Cada cenário deve conter:
+## Cenário 1: Agendamento bem-sucedido
 
-- **Nome resumido**
-- **Descrição associada**
+- **Descrição:** O usuário seleciona uma data e horário disponíveis, e o agendamento é concluído com sucesso.
 
 ---
 
 # Condições Prévias
 
-As **condições prévias** definem o **estado do sistema antes da execução** do caso de uso.
-
-### < Condição Prévia Um >
-
-[Descrição da condição prévia.]
+- O usuário deve estar autenticado no sistema.
+- O calendário de agendamento deve estar configurado corretamente.
 
 ---
 
 # Condições Posteriores
 
-As **pós-condições** definem **o estado final do sistema** após a execução.
-
-### < Pós-condição Um >
-
-[Descrição da pós-condição.]
+- O agendamento da reunião é registrado no sistema e notificado aos participantes.
+- O horário do agendamento é bloqueado para evitar conflitos.
 
 ---
 
 # Pontos de Extensão
 
-[Pontos onde outros casos de uso podem ser anexados.]
-
-### <Nome do Ponto de Extensão>
-
-[Descrição do local de extensão no fluxo de eventos.]
+- O caso de uso pode ser estendido por outras funcionalidades, como a integração com sistemas de videoconferência ou a adição de lembretes automáticos.
 
 ---
 
 # Requisitos Especiais
 
-**Requisitos não funcionais específicos do caso de uso.**  
-Podem incluir:
-
-- **Padrões regulatórios**
-- **Normas da aplicação**
-- **Requisitos de qualidade** (usabilidade, confiabilidade, desempenho, suportabilidade)
-- **Restrições de design**
-
-### < Primeiro Requisito Especial >
-
-[Descrição do requisito especial.]
+- O sistema deve garantir a **segurança dos dados** e **privacidade das informações** dos participantes.
+- O agendamento deve respeitar **padrões de usabilidade** e ser **compatível com dispositivos móveis**.
 
 ---
 
 # Informações Adicionais
 
-Inclua referências, diagramas, exemplos ou qualquer outra informação relevante para o caso de uso.
-
----
-
-# Confidencialidade
-
-© `<Nome da Empresa>`, 2006
+- **Referências**: [Links para a documentação de sistema, diagramas e exemplos adicionais].
