@@ -16,7 +16,7 @@
 
 | Data       | Versão | Descrição         | Autor     |
 |------------|--------|-------------------|-----------|
-| `<13/05/2025>` | `<1.1>` | `<Criação Inicia>` | `<Lucas Henrique dos Santos>` |
+| `<13/05/2025>` | `<1.1>` | `<Caso de uso: Agendar Reuniões>` | `<Lucas Henrique dos Santos>` |
 
 ---
 
