@@ -1,6 +1,6 @@
 # Sabina Decorações
 
-## <Nome do Projeto>
+## <Sabina Decorações>
 
 **Versão:** `<1.0>`
 
@@ -14,8 +14,8 @@
 
 ## Histórico da Revisão
 
-| Data       | Versão | Descrição         | Autor     |
-|------------|--------|-------------------|-----------|
+| Data         | Versão | Descrição                    | Autor                     |
+|--------------|--------|------------------------------|---------------------------|
 | `<13/05/2025>` | `<1.1>` | `<Caso de uso: Agendar Reuniões>` | `<Lucas Henrique dos Santos>` |
 
 ---
@@ -40,17 +40,17 @@
 
 # Breve Descrição
 
-[Descrição resumida do objetivo e da função do caso de uso "Agendar Reuniões". Este caso de uso permite que o usuário agende uma reunião, verificando a disponibilidade de horários e enviando convites.]
+Descrição resumida do objetivo e da função do caso de uso "Agendar Reuniões". Este caso de uso permite que o usuário agende uma reunião, verificando a disponibilidade de horários e enviando convites.
 
 ---
 
 # Fluxo Básico de Eventos
 
-1. O caso de uso **é iniciado por um usuário** (Cliente).
-2. O usuário seleciona a data e o horário para a reunião.
-3. O sistema verifica a disponibilidade do horário.
-4. O sistema confirma o agendamento, caso o horário esteja disponível.
-5. O sistema envia um convite para os participantes da reunião.
+1. O caso de uso **é iniciado por um usuário** (Cliente).  
+2. O usuário seleciona a data e o horário para a reunião.  
+3. O sistema verifica a disponibilidade do horário.  
+4. O sistema confirma o agendamento, caso o horário esteja disponível.  
+5. O sistema envia um convite para os participantes da reunião, por meio de e-mail automático contendo detalhes da reunião, como data, horário, local e link para videoconferência (se aplicável).  
 6. O caso de uso é finalizado.
 
 ---
@@ -59,14 +59,14 @@
 
 ## Controle de Horários
 
-- **Quando:** O horário solicitado já está ocupado.
-- **Ação:** O sistema sugere horários alternativos ou notifica o usuário de que o horário não está disponível.
+- **Quando:** O horário solicitado já está ocupado.  
+- **Ação:** O sistema sugere horários alternativos ou notifica o usuário de que o horário não está disponível.  
 - **Retorno ao fluxo principal:** O usuário escolhe um novo horário e prossegue com o agendamento.
 
 ## Erro de Conflito de Agenda
 
-- **Quando:** O sistema não consegue verificar a disponibilidade por erro de sistema.
-- **Ação:** O sistema informa o erro ao usuário e solicita nova tentativa.
+- **Quando:** O sistema não consegue verificar a disponibilidade por erro de sistema.  
+- **Ação:** O sistema informa o erro ao usuário e solicita nova tentativa.  
 - **Retorno ao fluxo principal:** O usuário tenta novamente.
 
 ---
@@ -75,7 +75,7 @@
 
 ## Subfluxo de Notificação
 
-1. Após a confirmação do agendamento, o sistema envia um e-mail de confirmação para o usuário e os participantes.
+1. Após a confirmação do agendamento, o sistema envia um e-mail de confirmação para o usuário e os participantes.  
 2. O sistema registra o evento na agenda.
 
 ---
@@ -90,14 +90,14 @@
 
 # Condições Prévias
 
-- O usuário deve estar autenticado no sistema.
+- O usuário deve estar autenticado no sistema.  
 - O calendário de agendamento deve estar configurado corretamente.
 
 ---
 
 # Condições Posteriores
 
-- O agendamento da reunião é registrado no sistema e notificado aos participantes.
+- O agendamento da reunião é registrado no sistema e notificado aos participantes.  
 - O horário do agendamento é bloqueado para evitar conflitos.
 
 ---
@@ -110,7 +110,7 @@
 
 # Requisitos Especiais
 
-- O sistema deve garantir a **segurança dos dados** e **privacidade das informações** dos participantes.
+- O sistema deve garantir a **segurança dos dados** e **privacidade das informações** dos participantes.  
 - O agendamento deve respeitar **padrões de usabilidade** e ser **compatível com dispositivos móveis**.
 
 ---
