@@ -1,14 +1,10 @@
 # Sabina Decorações
 
-## <Sabina Decorações>
-
-**Versão:** `<1.0>`
+## Versão: 1.0
 
 # Especificação de Caso de Uso: Agendar Reuniões
 
-**Data:** `<15/05/2025>`
-
-<identificador do documento>
+**Data:** 15/05/2025
 
 ---
 
@@ -16,7 +12,7 @@
 
 | Data         | Versão | Descrição                    | Autor                     |
 |--------------|--------|------------------------------|---------------------------|
-| `<13/05/2025>` | `<1.1>` | `<Caso de uso: Agendar Reuniões>` | `<Lucas Henrique dos Santos>` |
+| 13/05/2025   | 1.1    | Caso de uso: Agendar Reuniões | Lucas Henrique dos Santos |
 
 ---
 
@@ -35,86 +31,94 @@
 8. [Pontos de Extensão](#pontos-de-extensão)  
 9. [Requisitos Especiais](#requisitos-especiais)  
 10. [Informações Adicionais](#informações-adicionais)  
+11. [Confidencialidade](#confidencialidade)  
 
 ---
 
-# Breve Descrição
+## Breve Descrição
 
-Descrição resumida do objetivo e da função do caso de uso "Agendar Reuniões". Este caso de uso permite que o usuário agende uma reunião, verificando a disponibilidade de horários e enviando convites.
+Este caso de uso permite que o usuário agende uma reunião, verificando a disponibilidade de horários e enviando convites aos participantes.
 
 ---
 
-# Fluxo Básico de Eventos
+## Fluxo Básico de Eventos
 
-1. O caso de uso **é iniciado por um usuário** (Cliente).  
-2. O usuário seleciona a data e o horário para a reunião.  
-3. O sistema verifica a disponibilidade do horário.  
-4. O sistema confirma o agendamento, caso o horário esteja disponível.  
-5. O sistema envia um convite para os participantes da reunião, por meio de e-mail automático contendo detalhes da reunião, como data, horário, local e link para videoconferência (se aplicável).  
+1. O **usuário** inicia o caso de uso.
+2. O usuário seleciona a data e o horário para a reunião.
+3. O sistema verifica a disponibilidade do horário.
+4. Se o horário estiver disponível, o sistema confirma o agendamento.
+5. O sistema envia um convite por e-mail aos participantes com os detalhes da reunião.
 6. O caso de uso é finalizado.
 
 ---
 
-# Fluxos Alternativos
+## Fluxos Alternativos
 
-## Controle de Horários
+### Controle de Horários
 
-- **Quando:** O horário solicitado já está ocupado.  
-- **Ação:** O sistema sugere horários alternativos ou notifica o usuário de que o horário não está disponível.  
+- **Quando:** O horário solicitado já está ocupado.
+- **Ação:** O sistema sugere horários alternativos ou notifica o usuário sobre a indisponibilidade do horário.
 - **Retorno ao fluxo principal:** O usuário escolhe um novo horário e prossegue com o agendamento.
 
-## Erro de Conflito de Agenda
+### Erro de Conflito de Agenda
 
-- **Quando:** O sistema não consegue verificar a disponibilidade por erro de sistema.  
-- **Ação:** O sistema informa o erro ao usuário e solicita nova tentativa.  
+- **Quando:** O sistema não consegue verificar a disponibilidade por erro técnico.
+- **Ação:** O sistema informa o erro e solicita nova tentativa.
 - **Retorno ao fluxo principal:** O usuário tenta novamente.
 
 ---
 
-# Subfluxos
+## Subfluxos
 
-## Subfluxo de Notificação
+### Subfluxo de Notificação
 
-1. Após a confirmação do agendamento, o sistema envia um e-mail de confirmação para o usuário e os participantes.  
+1. Após confirmação do agendamento, o sistema envia um e-mail de confirmação para o usuário e os participantes.
 2. O sistema registra o evento na agenda.
 
 ---
 
-# Cenários Chave
+## Cenários Chave
 
-## Cenário 1: Agendamento bem-sucedido
+### Cenário 1: Agendamento bem-sucedido
 
-- **Descrição:** O usuário seleciona uma data e horário disponíveis, e o agendamento é concluído com sucesso.
+- **Descrição:** O usuário escolhe uma data e horário disponíveis, e o agendamento é finalizado com sucesso.
 
 ---
 
-# Condições Prévias
+## Condições Prévias
 
-- O usuário deve estar autenticado no sistema.  
+- O usuário deve estar autenticado no sistema.
 - O calendário de agendamento deve estar configurado corretamente.
 
 ---
 
-# Condições Posteriores
+## Condições Posteriores
 
-- O agendamento da reunião é registrado no sistema e notificado aos participantes.  
-- O horário do agendamento é bloqueado para evitar conflitos.
-
----
-
-# Pontos de Extensão
-
-- O caso de uso pode ser estendido por outras funcionalidades, como a integração com sistemas de videoconferência ou a adição de lembretes automáticos.
+- O agendamento é registrado no sistema e notificado aos participantes.
+- O horário agendado é bloqueado para evitar conflitos.
 
 ---
 
-# Requisitos Especiais
+## Pontos de Extensão
 
-- O sistema deve garantir a **segurança dos dados** e **privacidade das informações** dos participantes.  
-- O agendamento deve respeitar **padrões de usabilidade** e ser **compatível com dispositivos móveis**.
+- O caso de uso pode ser estendido para incluir integração com sistemas de videoconferência ou a adição de lembretes automáticos.
 
 ---
 
-# Informações Adicionais
+## Requisitos Especiais
 
-- **Referências**: [Links para a documentação de sistema, diagramas e exemplos adicionais].
+- O sistema deve garantir a **segurança dos dados** e a **privacidade das informações** dos participantes.
+- O agendamento deve ser **compatível com dispositivos móveis** e seguir **padrões de usabilidade**.
+
+---
+
+## Informações Adicionais
+
+- **Referências:** [Links para documentação, diagramas e exemplos adicionais].
+
+---
+
+## Confidencialidade
+
+Este documento contém informações confidenciais e deve ser tratado com a devida segurança. O conteúdo descrito aqui não deve ser compartilhado com terceiros sem a autorização de Sabina Decorações. Todos os dados são protegidos por políticas de privacidade e devem ser acessados apenas por usuários autorizados.
+
