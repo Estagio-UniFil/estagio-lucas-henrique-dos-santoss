@@ -90,11 +90,11 @@ Este documento está estruturado em seções que abordam desde o estabelecimento
 | **Nome:** | Sabina Renata Alves |
 | **Empresa / Segmento de Mercado:** | Sabina Decorações (Comércio de Decoração) |
 | **Cargo:** | Proprietário |
-| **Responsabilidades principais:** | Gerenciamento de operações e finanças |
-| **Distribuíveis produzidos e destinatários:** | Orçamentos para clientes, relatórios financeiros internos |
-| **Critérios de sucesso:** | Aumento de clientes, geração de orçamentos precisos |
-| **Problemas enfrentados:** | Processos manuais e ineficiência na simulação de orçamentos |
-| **Tendências que impactam o trabalho:** | Aumento da demanda por personalização e automação de processos |
+| **Responsabilidades principais:** | Gerenciamento de operações, controle de reuniões, simulação e gerenciamento de orçamentos, controle de feedback dos clientes |
+| **Distribuíveis produzidos e destinatários:** | Orçamentos para clientes, feedback dos clientes, modelos de decoração |
+| **Critérios de sucesso:** | Aumento da base de clientes, geração de orçamentos precisos, controle de feedback eficiente |
+| **Problemas enfrentados:** | Processos manuais, ineficiência na simulação de orçamentos, falta de automação no controle de feedback e agendamento de reuniões |
+| **Tendências que impactam o trabalho:** | Aumento da demanda por personalização, automação de processos (gestão de orçamentos, feedback e reuniões) |
 
 ---
 
