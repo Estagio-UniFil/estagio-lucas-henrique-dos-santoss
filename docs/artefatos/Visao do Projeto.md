@@ -1,10 +1,10 @@
-# <Sabina Decorações>
+# Sabina Decorações
 
 ## Vision
 
 **Data:** `<07/03/2025>`
 
-## <Sabina Decorações>
+## Sabina Decorações
 
 # Visão
 
@@ -19,36 +19,36 @@
 #### Instrução do Problema
 
 - **O problema de**  
-  dificuldade de acesso a serviços personalizados de decoração
+  Dificuldade de acesso a serviços personalizados de decoração.
 
 - **Afeta**  
-  clientes que buscam soluções diferenciadas e otimizadas para seus eventos
+  Clientes que buscam soluções diferenciadas e otimizadas para seus eventos.
 
 - **O impacto do qual é**  
-  tempo excessivo gasto na contratação, falta de transparência nos preços e dificuldade na comunicação com a empresa.
+  Tempo excessivo gasto na contratação, falta de transparência nos preços e dificuldade na comunicação com a empresa.
 
 - **Uma solução bem-sucedida seria**  
-  uma plataforma digital intuitiva que facilite a contratação de serviços, ofereça transparência nos preços e permita interação direta com os clientes.
+  Uma plataforma digital intuitiva que facilite a contratação de serviços, ofereça transparência nos preços e permita interação direta com os clientes.
 
 #### Instrução sobre a Posição do Produto
 
 - **Para**  
-  clientes que buscam decoração personalizada e prática para seus eventos
+  Clientes que buscam decoração personalizada e prática para seus eventos.
 
 - **Que**  
-  desejam rapidez, transparência e facilidade na contratação dos serviços
+  Desejam rapidez, transparência e facilidade na contratação dos serviços.
 
 - **O (nome do produto)**  
-  Sabina Decorações
+  Sabina Decorações.
 
 - **Que**  
-  é uma plataforma online de orçamento e contratação de serviços de decoração
+  É uma plataforma online de orçamento e contratação de serviços de decoração.
 
 - **A menos que**  
-  permite que os clientes explorem o portfólio da empresa, solicitem orçamentos personalizados e agendem reuniões com consultores.
+  Permite que os clientes explorem o portfólio da empresa, solicitem orçamentos personalizados e agendem reuniões com consultores.
 
 - **Nosso produto**  
-  oferece um diferencial competitivo ao proporcionar uma experiência integrada, ágil e acessível
+  Oferece um diferencial competitivo ao proporcionar uma experiência integrada, ágil e acessível.
 
 ---
 
@@ -134,11 +134,11 @@ Nosso diferencial é oferecer uma plataforma que combina praticidade, personaliz
 
 Defina as **faixas de qualidade** para:
 
-- **Desempenho:** tempo de carregamento não deve ultrapassar 3 segundos  
-- **Robustez:** sistema deve operar de forma estável mesmo com múltiplas solicitações simultâneas  
-- **Tolerância a falhas:** deve evitar perda de dados e manter logs de erros  
-- **Usabilidade:** interface intuitiva, compatível com dispositivos móveis  
-- **Características não capturadas no Conjunto de Recursos:** compatibilidade com futuras atualizações de redes sociais e meios de pagamento  
+- **Desempenho:** Tempo de carregamento não deve ultrapassar 3 segundos  
+- **Robustez:** Sistema deve operar de forma estável mesmo com múltiplas solicitações simultâneas  
+- **Tolerância a falhas:** Deve evitar perda de dados e manter logs de erros  
+- **Usabilidade:** Interface intuitiva, compatível com dispositivos móveis  
+- **Características não capturadas no Conjunto de Recursos:** Compatibilidade com futuras atualizações de redes sociais e meios de pagamento  
 
 Anote quaisquer **restrições externas ou dependências**, como:
 
