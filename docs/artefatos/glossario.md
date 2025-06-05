@@ -15,8 +15,8 @@ Identificador do Documento: GLOS-SABINA-DEC-2025-V1.0
 ## Histórico da Revisão
 
 | Data        | Versão | Descrição                      | Autor |
-|-------------|--------|-------------------------------|--------|
-| 28/mar/2025 | 1.0    | Criação do glossário inicial | Lucas  |
+|-------------|--------|-------------------------------|-------|
+| 28/mar/2025 | 1.0    | Criação do glossário inicial   | Lucas |
 
 ---
 
