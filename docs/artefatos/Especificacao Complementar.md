@@ -14,7 +14,7 @@
 ## **Histórico de Revisões**
 | **Data** | **Versão** | **Descrição** | **Autor** |
 | :--- | :--- | :--- | :--- |
-| 28/08/2025 | 1.0 | Primeira versão do documento | Gemini |
+| 28/08/2025 | 1.0 | Primeira versão do documento | Lucas Henrique dos Santos |
 
 ---
 
