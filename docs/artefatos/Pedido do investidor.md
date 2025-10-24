@@ -1,252 +1,180 @@
 # Sabina Decorações
 
-## Sabina Decorações
-
-**Versão:** `1.0`
-
-# Pedidos do Investidor
-
-**Data:** `21/Mar/25`
-
-Sabina-Invest-REQ-2025
+**Versão:** `2.0`  
+**Data:** `21/Mar/25`  
+**Código:** Sabina-Invest-REQ-2025
 
 ---
 
 ## Histórico da Revisão
 
-| Data       | Versão | Descrição         | Autor |
-|------------|--------|-------------------|--------|
-| 21/Mar/25  | 1.0    | Documento Inicial | Lucas  |
+| Data       | Versão | Descrição          | Autor  |
+|------------|--------|--------------------|--------|
+| 21/Mar/25  | 2.0    | Atualização | Lucas   |
+| 21/Mar/25  | 1.0    | Documento Inicial  | Lucas  |
 
 ---
 
-## Índice
+## Resumo Executivo
 
-1. [Introdução](#introdução)  
-   1.1 [Objetivo](#objetivo)  
-   1.2 [Escopo](#escopo)  
-   1.3 [Definições, Acrônimos e Abreviações](#definições-acrônimos-e-abreviações)  
-   1.4 [Referências](#referências)  
-   1.5 [Visão Geral](#visão-geral)  
-2. [Estabelecer Perfil do Investidor ou do Usuário](#estabelecer-perfil-do-investidor-ou-do-usuário)  
-3. [Avaliando o Problema](#avaliando-o-problema)  
-4. [Entendendo o Ambiente do Usuário](#entendendo-o-ambiente-do-usuário)  
-5. [Recapitulação para Entendimento](#recapitulação-para-entendimento)  
-6. [Entradas do Analista no Problema do Investidor](#entradas-do-analista-no-problema-do-investidor-validar-ou-invalidar-premissas)  
-7. [Avaliando Sua Solução (se aplicável)](#avaliando-sua-solução-se-aplicável)  
-8. [Avaliando a Oportunidade](#avaliando-a-oportunidade)  
-9. [Avaliando a Confiabilidade, o Desempenho e as Necessidades de Suporte](#avaliando-a-confiabilidade-o-desempenho-e-as-necessidades-de-suporte)  
-   9.1 [Outros Requisitos](#outros-requisitos)  
-10. [Wrap-Up](#wrap-up)  
-11. [Resumo do Analista](#resumo-do-analista)  
+**Problema Central:** Processos manuais de orçamento e agendamento causam ineficiência operacional e perda de oportunidades.
+
+**Solução Proposta:** Plataforma web integrada com simulador de orçamentos em tempo real, sistema de agendamentos automatizado e galeria virtual.
+
+**Impacto Esperado:** 
+- Redução de 70% no tempo de resposta para orçamentos
+- Aumento de 40% na conversão de leads
+- Automatização de 90% do processo comercial
 
 ---
 
-# Introdução
+## Análise do Problema
 
-*A introdução dos Pedidos do Investidor fornece uma visão geral do documento, incluindo objetivo, escopo, definições, acrônimos, referências e visão geral.*
+### Situação Atual
+- **Orçamentos:** Cálculos manuais sujeitos a erros
+- **Agendamentos:** Controle via planilhas e WhatsApp
+- **Portfólio:** Fotos dispersas em redes sociais
+- **Tempo Médio de Resposta:** 2-3 dias
 
----
-
-## Objetivo
-
-O objetivo deste documento é coletar as necessidades, expectativas e problemas do investidor em relação à solução proposta. As informações aqui obtidas servirão para desenvolver um sistema eficiente, alinhado com os requisitos do investidor e que resolva de forma eficaz os problemas identificados.
-
----
-
-## Escopo
-
-Este documento abrange todos os aspectos da coleta de Pedidos do Investidor para o desenvolvimento da solução. O foco está na criação de uma plataforma de simulação de orçamento online para serviços de decoração, com um processo de agendamento e personalização de pacotes.
+### Oportunidades Identificadas
+1. **Automatização** do fluxo comercial
+2. **Experiência digital** para clientes
+3. **Centralização** de informações
+4. **Scalability** para crescimento
 
 ---
 
-## Definições, Acrônimos e Abreviações
+## Solução Proposta
 
-- UI: Interface de Usuário  
-- UX: Experiência do Usuário  
-- API: Interface de Programação de Aplicações  
-- SaaS: Software como Serviço  
-- CRM: Gestão de Relacionamento com o Cliente  
+### Módulos Principais
 
----
+#### 1. Simulador de Orçamentos Inteligente
+- Cálculo em tempo real baseado em:
+  - Tipo de evento (casamento, aniversário, corporativo)
+  - Número de convidados
+  - Pacotes (Básico, Premium, Luxo)
+  - Serviços adicionais
 
-## Referências
+#### 2. Sistema de Agendamentos
+- Calendário integrado
+- Confirmação automática
+- Lembretes por email
+- Status em tempo real
 
-- Documento de requisitos da empresa [Título do Documento] - [Data].  
-- Relatório de análise de mercado [Título do Relatório] - [Data].  
+#### 3. Galeria Virtual Profissional
+- Portfólio organizado por categorias
+- Upload facilitado
+- Design responsivo
 
----
-
-## Visão Geral
-
-Este documento está estruturado em seções que abordam desde o estabelecimento do perfil do investidor até as expectativas de confiabilidade e desempenho da solução proposta.
-
----
-
-# Estabelecer Perfil do Investidor ou do Usuário
-
-| Pergunta | Resposta |
-|----------|----------|
-| **Nome:** | Sabina Renata Alves |
-| **Empresa / Segmento de Mercado:** | Sabina Decorações (Comércio de Decoração) |
-| **Cargo:** | Proprietário |
-| **Responsabilidades principais:** | Gerenciamento de operações, controle de reuniões, simulação e gerenciamento de orçamentos, controle de feedback dos clientes |
-| **Distribuíveis produzidos e destinatários:** | Orçamentos para clientes, feedback dos clientes, modelos de decoração |
-| **Critérios de sucesso:** | Aumento da base de clientes, geração de orçamentos precisos, controle de feedback eficiente |
-| **Problemas enfrentados:** | Processos manuais, ineficiência na simulação de orçamentos, falta de automação no controle de feedback e agendamento de reuniões |
-| **Tendências que impactam o trabalho:** | Aumento da demanda por personalização, automação de processos (gestão de orçamentos, feedback e reuniões) |
+#### 4. Painel Administrativo
+- Gestão centralizada
+- Métricas de performance
+- Controle de usuários
 
 ---
 
-# Avaliando o Problema
+## Métricas de Sucesso
 
-- Para quais **sistemas de orçamento online** problemas faltam boas soluções?  
-  → A falta de uma ferramenta online eficiente para simulação de orçamentos de decoração personalizada.  
-
-- Como esses problemas são resolvidos atualmente?  
-  → Manualmente, o que aumenta o tempo de resposta e o risco de erros.  
-
-- Como você gostaria que fossem resolvidos?  
-  → Através de uma plataforma web intuitiva que permita aos clientes selecionar opções, visualizar preços em tempo real e gerar orçamentos de forma automatizada.  
+| KPI | Meta | Linha de Base |
+|-----|------|---------------|
+| Tempo de resposta orçamentos | 2 horas | 3 dias |
+| Taxa de conversão | 40% | 15% |
+| Clientes recorrentes | 30% | 10% |
+| Satisfação do cliente | 4.8/5 | 4.2/5 |
 
 ---
 
-# Entendendo o Ambiente do Usuário
+## Retorno do Investimento
 
-- **Quem são os usuários?**  
-  → Proprietários de eventos (clientes finais) e consultores de decoração.  
+### Benefícios Tangíveis
+- **Redução de custos operacionais:** 30%
+- **Aumento de produtividade:** 50%
+- **Crescimento de receita:** 25% no primeiro ano
 
-- **Qual é o seu nível educacional e experiência com computadores?**  
-  → Nível médio a superior, com experiência básica.  
-
-- **Eles já usaram esse tipo de aplicativo antes?**  
-  → Não.  
-
-- **Quais plataformas estão em uso e quais são os planos futuros?**  
-  → Acesso via desktop e dispositivos móveis.  
-
-- **Quais aplicativos adicionais precisam ser integrados?**  
-  → Nenhum.  
-
-- **Quais são suas expectativas quanto à utilidade e tempo de treinamento?**  
-  → Sistema fácil de usar, com treinamento de 1 a 2 horas.  
-
-- **Que tipo de documentação você precisa?**  
-  → Guia rápido e tutorial em vídeo.  
+### Benefícios Intangíveis
+- **Imagem profissional** consolidada no mercado digital
+- **Experiência do cliente** unificada e moderna
+- **Diferencial competitivo** frente à concorrência tradicional
+- **Base de dados centralizada** para tomada de decisões
+- **Autonomia** do cliente no processo de orçamento
 
 ---
 
-# Recapitulação para Entendimento
+## Requisitos Técnicos
 
-Você mencionou os seguintes problemas:
+### Performance
+- Tempo de carregamento: < 3 segundos para páginas principais
+- Disponibilidade: 99% uptime (horário comercial)
+- Suporte a 50 usuários simultâneos
+- Otimização para mobile-first
 
-1. Falta de automatização no processo de orçamento  
-2. Dificuldade em personalizar pacotes de forma eficiente  
-3. Demora no atendimento ao cliente devido à falta de uma ferramenta integrada  
+### Segurança
+- SSL certificado (HTTPS)
+- Backup automático semanal
+- Proteção básica de dados pessoais
+- Autenticação de administradores
 
-Isso representa corretamente suas dificuldades com a solução existente?  
-→ Sim.  
-
-Há outros problemas que não mencionamos?  
-→ Não.  
-
----
-
-# Entradas do Analista no Problema do Investidor (Validar ou Invalidar Premissas)
-
-- Existem problemas adicionais relacionados a **integração com o gerenciamento de clientes**?  
-  → Sim.  
-
-- Para cada problema identificado:  
-  - **Esse problema é real?** Sim  
-  - **O que o causa?** Processos manuais e falta de automatização  
-  - **Como é resolvido atualmente?** De forma manual  
-  - **Como gostaria que fosse resolvido?** Por meio de plataforma integrada e automatizada  
-  - **Quão prioritário é comparado aos outros problemas?** É o mais prioritário  
+### Infraestrutura
+- Hospedagem compartilhada inicial
+- Banco de dados PostgreSQL
+- Framework Django (Python)
+- Frontend responsivo Bootstrap
 
 ---
 
-# Avaliando Sua Solução (se aplicável)
+## Timeline & Entregáveis
 
-E se você pudesse ter um sistema que...  
+### Fase 1 - MVP Básico (45 dias)
+- [ ] **Sistema de agendamentos** completo
+  - Formulário de solicitação
+  - Validação de datas
+  - Confirmação por email
+- [ ] **Galeria de fotos** administrável
+  - Upload e categorização
+  - Visualização pública
+  - Interface administrativa
+- [ ] **Páginas institucionais**
+  - Homepage otimizada
+  - Sobre e contato
 
-1. Permita calcular orçamentos em tempo real  
-2. Apresente várias opções personalizáveis  
-3. Integre com plataformas de pagamento e CRM  
+### Fase 2 - Simulador & Gestão (60 dias)
+- [ ] **Simulador de orçamentos** interativo
+  - Cálculo em tempo real
+  - Múltiplas opções de pacotes
+  - Formulário de captação
+- [ ] **Painel administrativo** completo
+  - Gestão de agendamentos
+  - Controle de orçamentos
+  - Métricas básicas
+- [ ] **Sistema de notificações**
+  - Emails automáticos
+  - Alertas administrativos
 
-**Qual seria a importância desses recursos para você?**  
-→ Alta importância, pois esses recursos agilizam o processo e melhoram a experiência do cliente.  
-
----
-
-# Avaliando a Oportunidade
-
-- Quem dentro da sua organização precisa desse aplicativo?  
-  → Consultores de vendas e gerentes de projeto  
-
-- Quantos usuários o utilizariam?  
-  → 2 consultores de vendas e 1 gerente de projeto  
-
-- Como você avaliaria uma solução bem-sucedida?  
-  → Aumento na velocidade de atendimento e precisão dos orçamentos  
-
----
-
-# Avaliando a Confiabilidade, o Desempenho e as Necessidades de Suporte
-
-- **Expectativas de confiabilidade?**  
-  → Disponibilidade de 99,9% com suporte imediato em falhas  
-
-- **Expectativas de desempenho?**  
-  → Resposta abaixo de 2 segundos para cálculos  
-
-- **Necessidades de suporte e manutenção?**  
-  → Sim  
-
-- **Requisitos de segurança?**  
-  → Proteção de dados do cliente  
-
-- **Requisitos de instalação, configuração e licença?**  
-  → Nenhum  
-
-- **Método de distribuição do software?**  
-  → Acesso via navegador (SaaS)  
+### Fase 3 - Otimização (30 dias)
+- [ ] **Treinamento** da equipe Sabina
+- [ ] **Go-live** e migração de dados
+- [ ] **Documentação** do sistema
 
 ---
 
-## Outros Requisitos
+### Recursos Necessários
+- **Desenvolvimento:** 3 meses (1 desenvolvedor full-stack)
+- **Design:** 2 semanas (UI/UX básico)
+- **Testes:** 2 semanas (QA)
+- **Hospedagem:** R$ 100-200/mês
 
-- **Existem requisitos regulatórios ou ambientais que precisam ser seguidos?**  
-  → Não  
+### Riscos Mitigados
+- **Escopo:** MVP focado nas funcionalidades essenciais
+- **Tecnologia:** Stack (Django + Bootstrap)
+- **Usabilidade:** Testes com usuários reais durante desenvolvimento
+- **Manutenção:** Documentação completa e código limpo
 
-- **Há outros requisitos importantes a serem considerados?**  
-  → Não há  
+### Entregáveis por Sprint
+- **Sprint 1-3:** Core do sistema (agendamentos + galeria)
+- **Sprint 4-6:** Simulador + painel admin
+- **Sprint 7-8:** Polimento e deploy
 
----
+## Confidencialidade
 
-# Wrap-Up
-
-- Há mais alguma pergunta que deveríamos ter feito?  
-  → Não  
-
-- Podemos entrar em contato caso surjam novas dúvidas?  
-  → Sim  
-
-- Você estaria disposto a revisar os requisitos conosco?  
-  → Sim  
-
----
-
-# Resumo do Analista
-
-Os **três ou quatro problemas prioritários** identificados foram:
-
-1. Falta de automação no processo de orçamento  
-2. Dificuldade na personalização dos pacotes de decoração  
-3. Demora no atendimento devido ao processo manual  
-
----
-
-# Confidencialidade
-
-© `Sabina Decorações`, 2025
+© `Sabina Decorações`, 2025  
+*Este documento contém informações proprietárias e confidenciais.*
